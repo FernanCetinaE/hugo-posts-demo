@@ -1,9 +1,9 @@
 languageCode = "en"
 languageName = "English"
-title = "Seven Theme"
+title = "Byte-Sized Posts"
 weight = 2
 
 [params]
   description = "A Simple And Beautiful Blog Theme For Hugo"
-  omitCategoryOnMenu = false
+  omitCategoryOnMenu = true
   categoryName = "Category"

@@ -7,7 +7,7 @@
 
 [app]
   # Optional site title override for the app when added to an iOS home screen or Android launcher
-  title = "Seven Theme"
+  title = "Byte-Sized Posts"
 
   # whether to omit favicon resource links
   noFavicon = false

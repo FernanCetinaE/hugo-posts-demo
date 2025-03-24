@@ -1,11 +1,11 @@
 [[main]]
-  name = "Docs"
-  pageRef = "docs"
+  name = "Posts"
+  pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "Posts"
-  pageRef = "posts"
+  name = "Docs"
+  pageRef = "docs"
   weight = 20
 
 [[main]]
