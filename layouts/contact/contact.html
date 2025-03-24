@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <section class="container mx-auto px-6 py-10">
+    <h1 class="text-4xl font-bold text-center mb-6" style="color: #726DA8;">Contact Us</h1>
+    <p class="text-center mb-6 text-gray-700 dark:text-gray-300">Please fill out the form below to get in touch with us.</p>
+
+    <form name="contact" method="POST" data-netlify="true" class="space-y-6">
+        <input type="hidden" name="form-name" value="contact">
+        
+        <div class="w-full max-w-xl mx-auto">
+            <label for="name" class="block text-lg font-medium text-gray-900 dark:text-gray-100">Your Name</label>
+            <input type="text" name="name" id="name" class="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500" required />
+        </div>
+    
+        <div class="w-full max-w-xl mx-auto">
+            <label for="email" class="block text-lg font-medium text-gray-900 dark:text-gray-100">Your Email</label>
+            <input type="email" name="email" id="email" class="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500" required />
+        </div>
+    
+        <div class="w-full max-w-xl mx-auto">
+            <label for="message" class="block text-lg font-medium text-gray-900 dark:text-gray-100">Your Message</label>
+            <textarea name="message" id="message" rows="4" class="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500" required></textarea>
+        </div>
+    
+        <div class="w-full max-w-xl mx-auto">
+            <button type="submit" class="w-full py-2 px-4 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 dark:bg-blue-700 dark:hover:bg-blue-600">
+                Send Message
+            </button>
+        </div>
+    </form>
+  </section>
+{{ end }}

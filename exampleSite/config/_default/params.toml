@@ -89,7 +89,7 @@
     region = ""
 
 [search]
-  enable = true
+  enable = false
 
   [search.algolia]
     # Type of content. 
